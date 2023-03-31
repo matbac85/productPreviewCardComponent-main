@@ -1,0 +1,94 @@
+:root {
+  --green: hsl(158, 36%, 37%);
+  --cream: hsl(30, 38%, 92%);
+  --dark-grey-txt: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+  --dark-blue:hsl(212, 21%, 14%);
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body, h1, h2, p, button, header, main{
+  margin: 0;
+}
+
+body{
+  background-color: var(--cream);
+  padding: 1rem;
+}
+
+main{
+  background-color: var(--white);
+  border-radius: 1rem;
+}
+
+section, main{
+  box-sizing: border-box;
+}
+
+h1, .price{
+  font-size: 2.3rem;
+  font-family: 'Fraunces', serif;
+  padding-bottom: 1.5rem;
+}
+
+h2, p, .strikethrough-price{
+  font-size: 1rem;
+  color: var(--dark-grey-txt);
+}
+
+h2 {
+  padding-bottom: 1rem;
+}
+
+p{
+  padding-bottom: 2rem;
+  line-height: 1.5rem;
+}
+
+h2{
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+}
+
+button{
+  background-color: var(--green);
+  width: 100%;
+  padding: 1.2rem 0;
+  border-radius: 1rem;
+  border: none;
+  color: var(--white);
+  font-weight: 700;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.price{
+  color: var(--green);
+  vertical-align: middle;
+  padding-right: 1.5rem;
+}
+
+.strikethrough-price{
+  text-decoration-line: line-through;
+  vertical-align: middle;
+  font-size: 0.7rems;
+}
+
+.picture img{
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.informations{
+  padding: 2rem;
+  border-radius: 0 0 1rem 1rem;
+}
+
+@media (min-width: 1440px) {
+}
