@@ -122,4 +122,13 @@ button:hover{
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  .informations{
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  h1, .price{
+    font-size: 2.1rem;
+  }
 }
